@@ -16,12 +16,6 @@ use \Magento\Framework\View\Asset\Repository;
 class Sliders extends Template
 {
     const XML_PATH_SLIDERS_ENABLE    = 'homesliders/general/enable';
-    const XML_PATH_SLIDERS_AUTOMATE  = 'homesliders/general/automate';
-    const XML_PATH_SLIDERS_SPEED     = 'homesliders/general/speed';
-    const XML_PATH_SLIDERS_DIRECTION = 'homesliders/general/direction';
-    const XML_PATH_SLIDERS_CONTROL   = 'homesliders/general/paging';
-    const XML_PATH_SLIDERS_PAUSE     = 'homesliders/general/pause';
-    const XML_PATH_SLIDERS_LINK      = 'homesliders/general/link';
 
     protected $_assetRepo;
 
