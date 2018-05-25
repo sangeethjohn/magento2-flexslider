@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Macfadyen_flexslider
+
+ * @category   Macfadyen
+ * @package    Macfadyen_flexslider
+ * @version    1.0.0
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Macfadyen_Flexslider::css/flexslider.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Macfadyen\Flexslider\Block\Sliders" name="Macfadyen.homesliders.sliders"
+                   before="-" template="Macfadyen_Flexslider::homesliders/sliders.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,38 @@
+<?php
+/*
+ * Macfadyen_flexslider
+
+ * @category   Macfadyen
+ * @package    Macfadyen_flexslider
+ * @version    1.0.0
+ */
+?>
+<?php if ($block->isEnabled()): ?>
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="<?php echo $block->getImageUrl('slider1.jpg');?>" />
+            </li>
+            <li>
+                <img src="<?php echo $block->getImageUrl('slider2.jpg');?>" />
+            </li>
+            <li>
+                <img src="<?php echo $block->getImageUrl('slider3.jpg');?>" />
+            </li>
+            <li>
+                <img src="<?php echo $block->getImageUrl('slider4.jpg');?>" />
+            </li>
+        </ul>
+    </div>
+        <script type="text/javascript">
+            require([
+                'jquery','flexsliderjs'
+            ],function($,flexsliderjs){
+                $(window).load(function() {
+                    $('.flexslider').flexslider({
+                        animation: "slide"
+                    });
+                });
+            });
+        </script>
+<?php endif; ?>
