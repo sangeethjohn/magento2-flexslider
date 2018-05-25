@@ -1,4 +1,3 @@
-# magento2-flexslider
 # Macfadyen_Flexslider
 
 
